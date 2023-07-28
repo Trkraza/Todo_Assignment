@@ -1,0 +1,32 @@
+
+
+
+
+.app-container {
+  width: 100vw;
+  margin: 0 0;
+  margin-top: 0px;
+  padding: 0px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ 
+  background: url("../src/assets/appbackground.png");
+}
+@media screen and (max-width: 768px) {
+  .app-container {
+    max-width: 800px;
+    height: 100vh;
+  margin: auto auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ 
+  background: url("../src/assets/appbackground.png");
+}
+  }
+
+
+

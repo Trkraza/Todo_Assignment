@@ -1,0 +1,59 @@
+/* Custom styles for the entire website */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  width: 100vw; /*a*/
+
+}
+
+/* Custom styles for the TodoForm component */
+form{
+  width: 75vw;
+ 
+}
+.form-control {
+    width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.bginput {
+  background-color: #f0f0f0; 
+  
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  width: 100%;
+  align-items: center;
+  font-size: 20px;
+  border: none;
+ 
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+.btn-primary:hover{
+  background-color: black;
+}
+@media screen and (min-width: 768px) {
+
+  
+  /* Custom styles for the TodoForm component */
+
+
+  form{
+    width: auto;
+  }
+
+
+
+ 
+    
+  }
